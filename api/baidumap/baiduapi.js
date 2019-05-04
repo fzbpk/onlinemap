@@ -54,10 +54,12 @@ var BaiduMap = (function() {
       this.Satellite_Visible = false;
       this.Creat = function(initjson, callbackname) {
         this.Baidu_option = initjson;
-        var mapdiv = document.createElement("div");
-        mapdiv.id = this.Baidu_option.mapid;
-        mapdiv.class = "mapdiv";
-        document.body.appendChild(mapdiv);
+        if (document.getElementById(this.amap_option.mapid) == undefined) {
+          var mapdiv = document.createElement("div");
+          mapdiv.id = this.Baidu_option.mapid;
+          mapdiv.class = "mapdiv";
+          document.body.appendChild(mapdiv);
+        } 
         var script = document.createElement("script");
         script.type = "text/javascript";
         script.src =
