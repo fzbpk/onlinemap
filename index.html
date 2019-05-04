@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+ 
+    <script src="config.js"></script>
+    <script src="onlinemap.js"></script> 
+  </head>
+  <script>
+         var map = new OM();
+       // var map = new AMapMap();
+        function initcallback() {
+            map.Load();  
+           // console.log(map.Scale());
+          }
+       function mapini()
+       {
+           
+              map.onMapLoad = function(maps) { 
+                
+              };
+            map.onMapMoved=function(){};
+            map.Creat("baidumap",mapcfg, "initcallback");
+      
+       }
+       
+        </script>
+  <body onload="mapini()"></body>
+
+</html>

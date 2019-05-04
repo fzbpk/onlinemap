@@ -1,0 +1,49 @@
+body,
+html,
+.mapdiv {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    font-family: "微软雅黑";
+}
+
+div#pb_adbanner,
+div#union-qbbanner,
+table.EC_mr15.EC_ppim_top.ec_pp_f,
+div.l_banner.banner_theme_2,
+div.wgt-ads,
+div.widget-ads,
+div#aside_ad[class^="aside_ad_"],
+div.wrap2 div.novel_wrap.j_novel_wrap,
+DIV#ecad,
+DIV.ecomad-banner-loading,
+div.EC_im_tg,
+.EC_tglj,
+div.wgt-union,
+div[id^="game_couplet_pb_"],
+div.search_union_mod.search_ecom_mod,
+div.banner_wrap,
+div.ws-tips,
+div.pause-ad,
+div.union_mod,
+DIV#content_left>TABLE[data-click],
+#ec_im_container,
+DIV.banner_post.banner_post_bright.j_banner_post.clearfix,
+DIV[id^="html-reader-banner-"],
+DIV#container.container_s>DIV#content_left>TABLE,
+DIV#container.container_l>DIV#content_left>TABLE,
+DIV.r.ec_bdtg,
+TABLE#relEcom,
+DIV#relecom54,
+DIV#ecomContainer,
+DIV#imgCmsAdPart,
+div.sam_iebrowser_banner,
+DIV[id^="m"][id$="_canvas"],
+a.adTopImg,
+div.res_top_banner,
+.bds-top-banner,
+div.cbg-Ads {
+    display: none !important;
+    disiplay: none
+}
